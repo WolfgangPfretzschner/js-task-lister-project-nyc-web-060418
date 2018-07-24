@@ -14,7 +14,7 @@ class List {
   }
 
   const listHtml = ()=> {
-  return '
+  return `
     <div id="lists">
 <!-- begin list 1 -->
   <div>
@@ -41,8 +41,8 @@ class List {
         Priority: high
       </li>
     </ul>
-  </div>
-'}
+  </div>`
+}
 
 
 
